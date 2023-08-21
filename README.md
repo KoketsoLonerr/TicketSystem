@@ -31,7 +31,7 @@ Before setting up the ticket system, ensure you have the following installed:
 ## Installation
 1. Clone the repository:
    ```
-   git clone https://github.com/your-username/java-ticket-system.git
+   git clone https://github.com/KoketsoLonerr/TicketSystem.git
    ```
    Alternatively, you can download the project as a ZIP file and extract it.
 
