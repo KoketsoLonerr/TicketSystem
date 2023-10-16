@@ -7,43 +7,47 @@ public class User {
     private String password;
     private String role;
 
-    public User(int id,String name, String email, String password, String role){
+    public User(int id, String name, String email, String password, String role) {
         this.id = id;
         this.name = name;
-        this.email = email;
-        this.password = password;
-        this.role = role;
+        this.email = email; // Assign the provided email value
+        this.password = password; // Assign the provided password value
+        this.role = role; // Assign the provided role value
     }
 
-    public int getId(){
+    public int getId() {
         return id;
     }
 
     public void setId(int id) {
         this.id = id;
     }
-    public String getName(){
+
+    public String getName() {
         return name;
     }
 
     public void setName(String name) {
         this.name = name;
     }
-    public String getEmail(){
+
+    public String getEmail() {
         return email;
     }
 
     public void setEmail(String email) {
         this.email = email;
     }
-    public String getPassword(){
+
+    public String getPassword() {
         return password;
     }
 
     public void setPassword(String password) {
         this.password = password;
     }
-    public String getRole(){
+
+    public String getRole() {
         return role;
     }
 
@@ -51,7 +55,4 @@ public class User {
         this.role = role;
     }
 
-    public String getStudentName(){
-        return this.name;
-    }
 }
